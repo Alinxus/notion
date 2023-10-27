@@ -10,17 +10,30 @@ const Heroes = () => {
                 <Image
     alt="The guitarist in the concert."
     src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Fdocuments.png&w=1920&q=75"
-    width={2250}
-    height={1390}
-    layout="responsive"
-/>              </div>
+    fill
+    className='object-contain dark:hidden'
+
+/> 
+<Image
+    alt="The guitarist in the concert."
+    src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Fdocuments-dark.png&w=1920&q=75"
+    fill
+    className='object-contain hidden dark:block'
+
+/>    
+             </div>
                 <div className='relative h-[400px] w-[400px] hidden md:block'>
                     <Image 
                     alt="The guitarist in the concert."
                     src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Freading.png&w=1920&q=75"
-                    width={2250}
-                    height={1390}
-                    layout="responsive"
+                    fill
+                    className='object-contain dark:hidden'
+                />
+                 <Image 
+                    alt="The guitarist in the concert."
+                    src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Freading-dark.png&w=1920&q=75"
+                    fill
+                    className='object-contain hidden dark:block'
                 />
                 </div>
             </div>
