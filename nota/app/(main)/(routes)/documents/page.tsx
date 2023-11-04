@@ -29,14 +29,14 @@ const DocumentsPage = () => {
   return ( 
     <div className="h-full flex flex-col items-center justify-center space-y-4">
       <Image
-        src="/empty.png"
+        src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Fempty.png&w=1920&q=75"
         height="300"
         width="300"
         alt="Empty"
         className="dark:hidden"
       />
       <Image
-        src="/empty-dark.png"
+        src="https://note-taking-app-rose.vercel.app/_next/image?url=%2Fempty-dark.png&w=1920&q=75"
         height="300"
         width="300"
         alt="Empty"

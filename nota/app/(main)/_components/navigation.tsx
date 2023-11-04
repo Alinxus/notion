@@ -28,7 +28,7 @@ import { useSettings } from "@/hooks/use-settings";
 import { UserItem } from "./user-item";
 import { Item } from "./item";
 import { DocumentList } from "./document-list";
-import { TrashBox } from "./trash-box";
+import { TrashBox } from "./trashbox";
 import { Navbar } from "./navbar";
 
 export const Navigation = () => {
